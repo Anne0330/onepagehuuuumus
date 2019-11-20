@@ -1,0 +1,219 @@
+/*Mobil*/
+body {
+    font-family: sans-serif;
+    background-image: url("tre.jpg");
+
+}
+
+#mitgrid div {
+    color: #000000;
+    border-color: #000000;
+    border-width: 2px;
+    border-style:solid;
+    
+}
+
+#Mitgrid {
+    display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-areas: 
+        "1 1 1 1 1 1"
+        "2 2 2 2 2 2"
+        "3 3 3 3 3 3"
+        "4 4 4 4 4 4"
+        "5 5 5 5 5 5"
+        "6 6 6 6 6 6"
+        "7 7 7 7 7 7"
+        "8 8 8 8 8 8"
+        "9 9 9 9 9 9"
+        "10 10 10 10 10 10"
+        "11 11 11 11 11 11"
+        "12 12 12 12 12 12"
+        "13 13 13 13 13 13"
+        "14 14 14 14 14 14"
+        "15 15 15 15 15 15"
+        "16 16 16 16 16 16"
+}
+
+#felt1 {
+    grid-area: 1;
+    background-color: deeppink;
+    margin-top: 2em;
+    margin-bottom: 0.5em;
+    margin-left: 3em;
+    margin-right: 3em;
+    text-align: center
+}
+
+#felt2 {
+    grid-area: 2;
+    background-color: blue;
+    margin-bottom: 0.7em;
+    margin-left: 3em;
+    margin-right: 3em;
+    text-align: center;
+}
+
+#felt3 {
+    grid-area: 3;
+    background-color: green;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-bottom: 2em;
+    text-align: center;
+}
+
+#felt4 {
+    grid-area: 4;
+    background-color:blueviolet;
+    text-align: center;
+}
+
+#felt5 {
+    grid-area: 5;
+    background-color: aqua;
+    text-align: left;
+}
+
+#felt6 {
+    grid-area: 6;
+    background-color: violet;
+    margin-bottom: 1em;
+    text-align: left;
+}
+#felt7 {
+    grid-area: 7;
+    background-color: chartreuse;
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+#Felt8 {
+    grid-area: 8;
+    background-color:coral;
+    text-align: center;
+}
+
+#felt9 {
+    grid-area: 9;
+    background-color: deepskyblue;
+    margin-bottom: 3em;
+    text-align: center;
+}
+
+#felt10 {
+    grid-area: 10;
+    background-color: firebrick;
+    text-align: center;
+    
+}
+
+#felt11 {
+    grid-area: 11;
+    background-color: darksalmon;
+    text-align: center;
+    
+}
+
+#felt12 {
+    grid-area: 12;
+    background-color: darkorange;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: 4em;
+    margin-right: 4em;
+    text-align: center;
+}
+
+#felt13 {
+    grid-area: 13;
+    background-color: darkorchid;
+    margin-left: 4em;
+    margin-right: 4em;
+    margin-bottom: 2em;
+    text-align: center;
+}
+
+#felt14 {
+    grid-area: 14;
+    background-color:fuchsia;
+    margin-left: 4em;
+    margin-right: 4em;
+    margin-bottom: 2em;
+    text-align: center;
+}
+
+#felt15 {
+    grid-area: 15;
+    background-color: darkgoldenrod;
+    margin-left: 4em;
+    margin-right: 4em;
+    margin-bottom: 2em;
+    text-align: center;
+}
+
+#felt16 {
+    background-color: lavender;
+    text-align: center;
+}
+
+/*Tablet*/
+@media screen and (min-width:600px){
+    
+    #Mitgrid {
+    display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-areas: 
+        "1 1 1 1 1 1"
+        "2 2 2 2 2 2"
+        "3 3 3 3 3 3"
+        "4 4 4 4 4 4"
+        "5 5 5 5 5 5"
+        "6 6 6 6 6 6"
+        "7 7 7 7 7 7"
+        "8 8 8 8 8 8"
+        "9 9 9 9 9 9"
+        "10 10 10 10 10 10"
+        "11 11 11 11 11 11"
+        "12 12 12 12 12 12"
+        "13 13 13 13 13 13"
+        "14 14 14 14 14 14"
+        "15 15 15 15 15 15"
+        "16 16 16 16 16 16"
+    }
+
+#felt1 {
+    grid-area: 1;
+    background-color: red;
+    margin-left: 7em;
+    margin-right: 7em;
+    
+    }
+    
+#felt2 {
+    grid-area: 2;
+    margin-left: 7em;
+    margin-right: 7em; 
+    }
+
+#felt3 {
+    grid-area: 3;
+    margin-left: 4em;
+    margin-right: 4em;
+    margin-top: 1em;
+    }
+#felt4 {
+        
+    }
+}
+
+/*desktop*/
+@media screen and (min-width: 1000px){
+    #felt1 {
+        background-color: aqua;
+    }
+}
