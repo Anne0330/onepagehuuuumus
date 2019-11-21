@@ -214,6 +214,6 @@ body {
 /*desktop*/
 @media screen and (min-width: 1000px){
     #felt1 {
-        background-color: aqua;
+        background-color: black;
     }
 }
