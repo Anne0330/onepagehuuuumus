@@ -1,0 +1,368 @@
+/*Mobil*/
+@media screen and (min-width:500px){
+    
+body {
+    font-family: 'raleway', sans-serif;
+    background-image: url("COLOURBOX36205309.png");
+    background-size: contain;
+}
+
+#mitgrid {
+    display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-areas: 
+        ". titel titel titel titel ."
+        "logo logo logo logo logo logo"
+        "info info info info info info"
+        "hummusbill hummusbill hummusbill hummusbill hummusbill hummusbill"
+        "hummusopsk hummusopsk hummusopsk hummusopsk hummusopsk hummusopsk"
+        "rakkefolge rakkefolge rakkefolge rakkefolge rakkefolge rakkefolge"
+        "hummuskrummer hummuskrummer hummuskrummer hummuskrummer hummuskrummer hummuskrummer"
+        "favorittitel favorittitel favorittitel favorittitel favorittitel favorittitel"
+        "rugbrodbill rugbrodbill rugbrodbill rugbrodbill rugbrodbill rugbrodbill"
+        "rugbrodbeskrivelse rugbrodbeskrivelse rugbrodbeskrivelse rugbrodbeskrivelse rugbrodbeskrivelse rugbrodbeskrivelse"
+        "titelgronsagbill titelgronsagbill titelgronsagbill titelgronsagbill titelgronsagbill titelgronsagbill"
+        "gronsagsbeskrivelse gronsagsbeskrivelse gronsagsbeskrivelse gronsagsbeskrivelse gronsagsbeskrivelse gronsagsbeskrivelse"
+        "asparges asparges asparges asparges asparges asparges"
+        "beder beder beder beder beder beder"
+        "peberfrugt peberfrugt peberfrugt peberfrugt peberfrugt peberfrugt"
+        "radis radis radis radis radis radis"
+        "sukker sukker sukker sukker sukker sukker"
+        "tomater tomater tomater tomater tomater tomater"
+        "gronsagsskal gronsagsskal gronsagsskal gronsagsskal gronsagsskal gronsagsskal"
+        "gronssagskop gronssagskop gronssagskop gronssagskop gronssagskop gronssagskop"
+        "fancygronsag fancygronsag fancygronsag fancygronsag fancygronsag fancygronsag"
+        "footer footer footer footer footer footer"  
+}
+
+
+#felt1 {
+    grid-area: titel;
+    background-color: #ecd7a0;
+    text-align: center;
+    font-family: 'Playball', cursive;
+}
+
+#felt2 {
+    grid-area: logo;
+    text-align: center;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+   
+}
+    #felt2 img {
+        max-width: 100%;
+    }
+
+#felt3 {
+    grid-area: info;
+    background-color: #ecd7a0;
+    text-align: center;
+    margin-bottom: 2em;
+    padding: 10px;
+}
+
+#felt4 {
+    grid-area: hummusbill;
+}
+    #felt4 img {
+        max-width: 100%;
+    }
+
+#felt5 {
+    grid-area: hummusopsk;
+    text-align: left;
+    background-color: #ecd7a0;
+    font-family: 'raleway', sans-serif;
+    padding: 10px;
+}
+    #felt5 h2, h3 {
+        font-family: 'Playball', cursive;
+    }
+    
+
+#felt6 {
+    grid-area: rakkefolge;
+    background-color: #ecd7a0;
+    margin-bottom: 1em;
+    text-align: left;
+    font-family: 'raleway', sans-serif;
+    padding: 10px;
+   
+}
+#felt7 {
+    grid-area: favorittitel;
+    background-color: #ecd7a0;
+    text-align: center;
+    margin-bottom: 1em;
+     font-family: 'Playball', cursive;
+}
+
+#felt8 {
+    grid-area: rugbrodbill;
+    background-color:#ecd7a0;
+    text-align: center;
+   
+}
+    #felt8 img {
+        max-width: 100%;
+    }
+
+#felt9 {
+    grid-area: rugbrodbeskrivelse;
+    background-color: #ecd7a0;
+    text-align: center;
+    margin-bottom: 2em;
+    padding: 10px;
+}
+
+#felt10 {
+    grid-area: titelgronsagbill;
+}
+    #felt10 img {
+        max-width: 100%;
+    }
+
+#felt11 {
+    grid-area: gronsagsbeskrivelse;
+    background-color: #ecd7a0;
+    text-align: center;
+    margin-bottom: 2em;
+    
+}
+
+#felt12 {
+    grid-area: asparges;
+    background-color: #ecd7a0;
+    text-align: center;
+    margin-bottom: 1em;
+}
+    
+    #felt12 img {
+        max-width: 100%;
+    }
+
+#felt13 {
+    grid-area: beder;
+    background-color: #ecd7a0;
+    text-align: center;
+    margin-bottom: 1em;
+}
+    #felt13 img {
+        max-width: 100%;
+    }
+
+#felt14 {
+    grid-area: peberfrugt;
+    background-color:#ecd7a0;
+    text-align: center;
+    margin-bottom: 1em;
+}
+    #felt14 img {
+        max-width: 100%;
+    }
+
+#felt15 {
+    grid-area: radis;
+    background-color: #ecd7a0;
+    text-align: center;
+    margin-bottom: 2em;
+}
+    #felt15 img {
+        max-width: 100%;
+    }
+
+#felt16 {
+    grid-area: footer;
+    background-color: #ecd7a0;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+}
+
+    #felt17 {
+        grid-area: hummuskrummer;
+        margin-bottom: 1em;
+    }
+    
+    #felt17 img {
+        max-width: 100%
+    }
+    
+#felt19 {
+        grid-area:sukker;
+        margin-bottom: 1em;
+
+    }
+    
+    #felt19 img {
+        max-width: 100%;
+    }
+    
+#felt20 {
+        grid-area: tomater;
+        margin-bottom: 1em;
+
+    }
+    
+    #felt20 img {
+        max-width: 100%
+    }
+    #felt21 {
+        grid-area: gronsagsskal;
+    }    
+    
+    #felt21 img {
+        max-width: 100%
+    }
+    
+#felt22 {
+        grid-area: gronssagskop;
+    }
+    
+    #felt22 img {
+        max-width: 100%;
+    }
+
+    #felt23 {
+        grid-area: fancygronsag;
+    }
+    
+    #felt23 img {
+        max-width: 100%;
+    }
+}
+
+
+/*Tablet*/
+@media screen and (min-width:700px){
+    
+#mitgrid {
+    display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-areas: 
+        ". titel titel titel titel ."
+        ". logo logo logo logo ."
+        "info info info info info info"
+        "hummusbill hummusbill hummusbill hummusopsk hummusopsk hummusopsk"
+        "hummuskrummer hummuskrummer hummuskrummer rakkefolge rakkefolge rakkefolge"
+        "favorittitel favorittitel favorittitel favorittitel favorittitel favorittitel"
+        "rugbrodbeskrivelse rugbrodbeskrivelse rugbrodbeskrivelse rugbrodbill rugbrodbill rugbrodbill"
+        "rugbrodbeskrivelse rugbrodbeskrivelse rugbrodbeskrivelse rugbrodbill rugbrodbill rugbrodbill"
+        "titelgronsagbill titelgronsagbill titelgronsagbill gronsagsbeskrivelse gronsagsbeskrivelse gronsagsbeskrivelse"
+        "titelgronsagbill titelgronsagbill titelgronsagbill gronsagsbeskrivelse gronsagsbeskrivelse gronsagsbeskrivelse"
+        "asparges asparges asparges beder beder beder"
+        "peberfrugt peberfrugt peberfrugt radis radis radis"
+        "sukker sukker sukker tomater tomater tomater"
+        "gronsagsskal gronsagsskal gronsagsskal gronssagskop gronssagskop gronssagskop"
+        ". fancygronsag fancygronsag fancygronsag fancygronsag ."
+        "footer footer footer footer footer footer"  
+}
+    
+#mitgrid div {
+        border-color: #e9e9e9;
+        border-style: dotted;
+    }
+    
+  
+    
+    #felt3 {
+        font-family: 'raleway';
+        padding: 10px;
+        
+    }
+    
+    #felt4 img {
+        max-width: 150%;
+    }
+    
+    
+     #felt17 img {
+        max-width: 150%;
+    }
+
+    
+
+    #felt6 {
+        margin-bottom: 1.2em;
+
+    }
+
+    
+    #felt8 {
+        margin-bottom: 2em;
+    }
+    
+    
+    #felt10 {
+        margin-bottom: 2em;
+    }
+    
+    #felt12 {
+        margin: 0.5em;
+    }
+    
+    #felt13 {
+        margin: 0.5em;
+    }
+    
+    #felt14 {
+        margin: 0.5em;
+    }
+    
+    #felt15 {
+        margin: 0.5em;
+    }
+    
+    #felt19 {
+        margin: 0.5em;
+    }
+    
+    #felt20 {
+        margin: 0.5em;
+    }
+    
+    #felt21 {
+        margin: 0.5em;
+    }
+    
+    #felt22 {
+        margin: 0.5em;
+    }
+    
+    #felt23 {
+        margin: 0.5em;
+    }
+}
+
+/*desktop*/
+@media screen and (min-width: 1000px){
+
+    #mitgrid {
+    display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-areas: 
+        "titel titel titel titel titel titel"
+        "titel titel titel titel titel titel"
+        "logo logo logo logo logo logo"
+        "info info info info info info"
+        "hummusbill hummusbill hummusbill hummusopsk hummusopsk hummusopsk"
+        "hummuskrummer hummuskrummer hummuskrummer rakkefolge rakkefolge rakkefolge"
+        "favorittitel favorittitel favorittitel favorittitel favorittitel favorittitel"
+        "rugbrodbeskrivelse rugbrodbeskrivelse rugbrodbeskrivelse rugbrodbill rugbrodbill rugbrodbill"
+        "rugbrodbeskrivelse rugbrodbeskrivelse rugbrodbeskrivelse rugbrodbill rugbrodbill rugbrodbill"
+        "titelgronsagbill titelgronsagbill titelgronsagbill gronsagsbeskrivelse gronsagsbeskrivelse gronsagsbeskrivelse"
+        "titelgronsagbill titelgronsagbill titelgronsagbill gronsagsbeskrivelse gronsagsbeskrivelse gronsagsbeskrivelse"
+        "asparges asparges beder beder peberfrugt peberfrugt"
+        "radis radis sukker sukker tomater tomater"
+        "gronsagsskal gronsagsskal gronssagskop gronssagskop fancygronsag fancygronsag"
+        "footer footer footer footer footer footer"  
+}
+#mitgrid div {
+        border-style: solid;
+    }
+    
+    #felt1 h1 {
+        font-size: 70px;
+    }
+}
