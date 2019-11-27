@@ -40,7 +40,8 @@ body {
     grid-area: titel;
     background-color: #ecd7a0;
     text-align: center;
-    font-family: 'Playball', cursive;
+    font-family: 'cortado', sans-serif;
+    font-style: normal;
     font-size: 22px;
 }
   
@@ -58,7 +59,7 @@ body {
 
 #felt3 {
     grid-area: info;
-    background-color: #ecd7a0;
+    background-color: #E8E9E9;
     text-align: center;
     margin-bottom: 2em;
     padding: 10px;
@@ -78,8 +79,18 @@ body {
     font-family: 'raleway', sans-serif;
     padding: 10px;
 }
-    #felt5 h2, h3 {
-        font-family: 'Playball', cursive;
+    #felt5 h2 {
+        font-family: 'cortado', sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+    
+    #felt5 h3 {
+        font-family: rumba-large, sans-serif;
+
+font-weight: 400;
+
+font-style: normal;
     }
     
 
@@ -90,14 +101,25 @@ body {
     text-align: left;
     font-family: 'raleway', sans-serif;
     padding: 10px;
+
    
 }
+    
+    #felt6 h3 {
+        font-family: rumba-large, sans-serif;
+
+font-weight: 400;
+
+font-style: normal;
+    }
 #felt7 {
     grid-area: favorittitel;
     background-color: #ecd7a0;
     text-align: center;
     margin-bottom: 1em;
-    font-family: 'Playball', cursive;
+    font-family: cortado, sans-serif;
+    font-weight: 400;
+    font-style: normal;
     font-size: 22px;
 }
 
@@ -172,10 +194,11 @@ body {
 
 #felt16 {
     grid-area: footer;
-    background-color: #ecd7a0;
+    background-color: #E8E9E9;
     text-align: center;
     padding: 10px;
     font-size: 14px;
+    margin-top: 2em;
 }
 
     #felt17 {
@@ -242,7 +265,7 @@ body {
     display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
         grid-template-areas: 
-        ". titel titel titel titel ."
+        "titel titel titel titel titel titel"
         ". logo logo logo logo ."
         "info info info info info info"
         "hummusbill hummusbill hummusbill hummusopsk hummusopsk hummusopsk"
@@ -368,14 +391,14 @@ body {
         grid-template-areas: 
         "titel titel titel titel titel titel"
         "logo logo logo logo logo logo"
-        ". info info info info ."
-        ". hummusbill hummusbill hummusopsk hummusopsk ."
-        ". hummuskrummer hummuskrummer rakkefolge rakkefolge ."
-        ". favorittitel favorittitel favorittitel favorittitel ."
-        ". rugbrodbeskrivelse rugbrodbeskrivelse rugbrodbill rugbrodbill ."
-        ". rugbrodbeskrivelse rugbrodbeskrivelse rugbrodbill rugbrodbill ."
-        ". titelgronsagbill titelgronsagbill gronsagsbeskrivelse gronsagsbeskrivelse ."
-        ". titelgronsagbill titelgronsagbill gronsagsbeskrivelse gronsagsbeskrivelse ."
+        "info info info info info info"
+        "hummusbill hummusbill hummusbill hummusopsk hummusopsk hummusopsk"
+        "hummuskrummer hummuskrummer hummuskrummer rakkefolge rakkefolge rakkefolge"
+        "favorittitel favorittitel favorittitel favorittitel favorittitel favorittitel"
+        "rugbrodbeskrivelse rugbrodbeskrivelse rugbrodbeskrivelse rugbrodbill rugbrodbill rugbrodbill"
+        "rugbrodbeskrivelse rugbrodbeskrivelse rugbrodbeskrivelse rugbrodbill rugbrodbill rugbrodbill"
+        "titelgronsagbill titelgronsagbill titelgronsagbill gronsagsbeskrivelse gronsagsbeskrivelse gronsagsbeskrivelse"
+        "titelgronsagbill titelgronsagbill titelgronsagbill gronsagsbeskrivelse gronsagsbeskrivelse gronsagsbeskrivelse"
         "asparges asparges beder beder peberfrugt peberfrugt"
         "radis radis sukker sukker tomater tomater"
         "gronsagsskal gronsagsskal gronssagskop gronssagskop fancygronsag fancygronsag"
@@ -385,24 +408,50 @@ body {
         border-style: none;
     }
     
+    #felt1 {
+        margin-left: 2em;
+        margin-right: 2em;
+        margin-bottom: 0.5em;
+    }
+    
     #felt1 h1 {
         font-size: 80px;
     }
     
-    
+    #felt2 {
+        margin-left: 2.7em;
+        margin-right: 2.7em;
+    }
+ 
+    #felt3 {
+        margin-left: 2.7em;
+        margin-right: 2.7em;
+        background-color: #E8E9E9
+    }
     #felt4 {
           background:linear-gradient(to right,
       rgba(0, 0, 0, 0) 35%, #ecd7a0 ), url('hummus.jpeg') center no-repeat;
   background-size: cover;
+    margin-left: 2.7em;
     }
-    
     
     #felt4 img {
         max-width: 0%;
     }
     
-    #felt7 h2 {
+    #felt5 {
+        margin-right: 2.7em;
+    }
+    
+    #felt6 {
+        margin-right: 2.7em;
+    }
+    
+    #felt7 {
         font-size: 3em;
+        margin-left: 0.9em;
+        margin-right: 0.9em;
+        margin-bottom: 20px;
     }
     
     
@@ -412,10 +461,15 @@ body {
         background-size: cover;
         padding: 30%;
       margin-bottom: 2.3em;
+    margin-right: 2.7em;
     }
     
     #felt8 img {
         max-width: 0%;
+    }
+    
+    #felt9 {
+        margin-left: 2.7em;
     }
     
     
@@ -425,10 +479,19 @@ body {
         background-size: cover;
         padding: 30%;
         margin-bottom: 2.3em;
+        margin-left: 2.7em;
     }
     
     #felt10 img {
         max-width: 0%;
+    }
+    
+    #felt11 {
+        margin-right: 2.7em;
+    }
+    
+    #felt16 {
+        background-color: #E8E9E9
     }
     
     
@@ -437,6 +500,7 @@ body {
       rgba(0, 0, 0, 0) 35%, #ecd7a0 ), url('medkrummer.jpeg') center no-repeat;
   background-size: cover;
         margin-bottom: 1.2em;
+        margin-left: 2.7em;
     }
     
     #felt17 img {
