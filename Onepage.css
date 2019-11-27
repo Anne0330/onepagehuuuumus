@@ -41,7 +41,9 @@ body {
     background-color: #ecd7a0;
     text-align: center;
     font-family: 'Playball', cursive;
+    font-size: 22px;
 }
+  
 
 #felt2 {
     grid-area: logo;
@@ -95,12 +97,12 @@ body {
     background-color: #ecd7a0;
     text-align: center;
     margin-bottom: 1em;
-     font-family: 'Playball', cursive;
+    font-family: 'Playball', cursive;
+    font-size: 22px;
 }
 
 #felt8 {
     grid-area: rugbrodbill;
-    background-color:#ecd7a0;
     text-align: center;
    
 }
@@ -128,12 +130,12 @@ body {
     background-color: #ecd7a0;
     text-align: center;
     margin-bottom: 2em;
+    padding: 10px;
     
 }
 
 #felt12 {
     grid-area: asparges;
-    background-color: #ecd7a0;
     text-align: center;
     margin-bottom: 1em;
 }
@@ -144,7 +146,6 @@ body {
 
 #felt13 {
     grid-area: beder;
-    background-color: #ecd7a0;
     text-align: center;
     margin-bottom: 1em;
 }
@@ -154,7 +155,6 @@ body {
 
 #felt14 {
     grid-area: peberfrugt;
-    background-color:#ecd7a0;
     text-align: center;
     margin-bottom: 1em;
 }
@@ -164,8 +164,6 @@ body {
 
 #felt15 {
     grid-area: radis;
-    background-color: #ecd7a0;
-    text-align: center;
     margin-bottom: 2em;
 }
     #felt15 img {
@@ -191,7 +189,7 @@ body {
     
 #felt19 {
         grid-area:sukker;
-        margin-bottom: 1em;
+        margin-bottom: 2em;
 
     }
     
@@ -201,7 +199,7 @@ body {
     
 #felt20 {
         grid-area: tomater;
-        margin-bottom: 1em;
+        margin-bottom: 2em;
 
     }
     
@@ -210,6 +208,7 @@ body {
     }
     #felt21 {
         grid-area: gronsagsskal;
+        margin-bottom: 2em;
     }    
     
     #felt21 img {
@@ -218,6 +217,7 @@ body {
     
 #felt22 {
         grid-area: gronssagskop;
+    margin-bottom: 2em;
     }
     
     #felt22 img {
@@ -226,6 +226,7 @@ body {
 
     #felt23 {
         grid-area: fancygronsag;
+        margin-bottom: 2em;
     }
     
     #felt23 img {
@@ -261,7 +262,10 @@ body {
     
 #mitgrid div {
         border-color: #e9e9e9;
-        border-style: dotted;
+    }
+    
+    #felt1 h1 {
+        font-size: 80px;
     }
     
   
@@ -272,13 +276,17 @@ body {
         
     }
     
+    #felt4 {
+        margin-bottom: -2em;
+    }
+    
     #felt4 img {
         max-width: 150%;
     }
     
-    
+
      #felt17 img {
-        max-width: 150%;
+        max-width: 140%;
     }
 
     
@@ -287,15 +295,30 @@ body {
         margin-bottom: 1.2em;
 
     }
+    
 
     
     #felt8 {
         margin-bottom: 2em;
     }
     
+    #felt8 img {
+        max-width: 100%;
+        
+    }
+    
+    #felt9 {
+        margin-bottom: 2.3em;
+    }
+    
     
     #felt10 {
         margin-bottom: 2em;
+    }
+    
+    #felt11 {
+        margin-bottom: 2.3em;
+        padding: 10px;
     }
     
     #felt12 {
@@ -331,7 +354,8 @@ body {
     }
     
     #felt23 {
-        margin: 0.5em;
+        margin: 2em;
+    
     }
 }
 
@@ -343,26 +367,86 @@ body {
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
         grid-template-areas: 
         "titel titel titel titel titel titel"
-        "titel titel titel titel titel titel"
         "logo logo logo logo logo logo"
-        "info info info info info info"
-        "hummusbill hummusbill hummusbill hummusopsk hummusopsk hummusopsk"
-        "hummuskrummer hummuskrummer hummuskrummer rakkefolge rakkefolge rakkefolge"
-        "favorittitel favorittitel favorittitel favorittitel favorittitel favorittitel"
-        "rugbrodbeskrivelse rugbrodbeskrivelse rugbrodbeskrivelse rugbrodbill rugbrodbill rugbrodbill"
-        "rugbrodbeskrivelse rugbrodbeskrivelse rugbrodbeskrivelse rugbrodbill rugbrodbill rugbrodbill"
-        "titelgronsagbill titelgronsagbill titelgronsagbill gronsagsbeskrivelse gronsagsbeskrivelse gronsagsbeskrivelse"
-        "titelgronsagbill titelgronsagbill titelgronsagbill gronsagsbeskrivelse gronsagsbeskrivelse gronsagsbeskrivelse"
+        ". info info info info ."
+        ". hummusbill hummusbill hummusopsk hummusopsk ."
+        ". hummuskrummer hummuskrummer rakkefolge rakkefolge ."
+        ". favorittitel favorittitel favorittitel favorittitel ."
+        ". rugbrodbeskrivelse rugbrodbeskrivelse rugbrodbill rugbrodbill ."
+        ". rugbrodbeskrivelse rugbrodbeskrivelse rugbrodbill rugbrodbill ."
+        ". titelgronsagbill titelgronsagbill gronsagsbeskrivelse gronsagsbeskrivelse ."
+        ". titelgronsagbill titelgronsagbill gronsagsbeskrivelse gronsagsbeskrivelse ."
         "asparges asparges beder beder peberfrugt peberfrugt"
         "radis radis sukker sukker tomater tomater"
         "gronsagsskal gronsagsskal gronssagskop gronssagskop fancygronsag fancygronsag"
         "footer footer footer footer footer footer"  
 }
 #mitgrid div {
-        border-style: solid;
+        border-style: none;
     }
     
     #felt1 h1 {
-        font-size: 70px;
+        font-size: 80px;
     }
+    
+    
+    #felt4 {
+          background:linear-gradient(to right,
+      rgba(0, 0, 0, 0) 35%, #ecd7a0 ), url('hummus.jpeg') center no-repeat;
+  background-size: cover;
+    }
+    
+    
+    #felt4 img {
+        max-width: 0%;
+    }
+    
+    #felt7 h2 {
+        font-size: 3em;
+    }
+    
+    
+  #felt8  {
+        background:linear-gradient(to left,
+        rgba(0, 0, 0, 0) 70%, #ecd7a0 ), url('Br%C3%B8d.JPEG') no-repeat;
+        background-size: cover;
+        padding: 30%;
+      margin-bottom: 2.3em;
+    }
+    
+    #felt8 img {
+        max-width: 0%;
+    }
+    
+    
+    #felt10 {
+        background:linear-gradient(to right,
+      rgba(0, 0, 0, 0) 60%, #ecd7a0 ), url('Gr%C3%B8nsager%202.2.jpg') center no-repeat;
+        background-size: cover;
+        padding: 30%;
+        margin-bottom: 2.3em;
+    }
+    
+    #felt10 img {
+        max-width: 0%;
+    }
+    
+    
+    #felt17 {
+        background:linear-gradient(to right,
+      rgba(0, 0, 0, 0) 35%, #ecd7a0 ), url('medkrummer.jpeg') center no-repeat;
+  background-size: cover;
+        margin-bottom: 1.2em;
+    }
+    
+    #felt17 img {
+        max-width: 0%;
+    }
+    
+      #felt23 {
+        margin: 0.5em;
+    
+    }
+    
+    
 }
